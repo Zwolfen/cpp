@@ -3,3 +3,13 @@
 ################################################################################
 
 /.vs
+/CppProperties.json
+/ConsoleApplication1/.vs/ConsoleApplication1/v16
+/ConsoleApplication1/Debug
+/ConsoleApplication1/Release
+/ConsoleApplication1/ConsoleApplication1/Debug
+/ConsoleApplication1/ConsoleApplication1/Release
+/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj.user
+/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj.filters
+/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj
+/ConsoleApplication1/ConsoleApplication1.sln
