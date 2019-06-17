@@ -1,13 +1,16 @@
 #include<iostream>
-
+//#include"Header.h"
 
 using namespace std;
 
+int glob = 10;
+
 int main()
 {
+	
 	//setlocale(LC_CTYPE, "rus");
 	system("chcp 1251>nul");
-
+	//cout << glob;
 	/*
 	Exercises Section 2.2.1
 		Exercise 2.9: Explain the following definitions.For those that are illegal,
@@ -55,10 +58,10 @@ int main()
 	a) invalid. double is a reserved name for type
 	b) invalid. var name must begin from digit or lowercase char
 	c) invalid. no equal char but a arifmetic operation;
-	d) valid name;
+	d) invalid. variable start with digit;
 	e) invalid. var must begin from lowercase char.
 	*/
-
+	 
 
 	/*
 	Exercises Section 2.2.4
@@ -118,8 +121,7 @@ int main()
 	c) r2 is alias and cant be used as value for i
 	d) r1 is alias and cant be used as value for
 	*/
-
-
+	
 	/*
 	exercise 2.17: what does the following code print ?
 	int i, &ri = i;
@@ -142,12 +144,13 @@ int main()
 	*/
 	/*
 	int i = 100;
-	int& ival = i;
+	int &ival = i;
 	int* p = &ival;
 	cout << *p << endl;
 	*p = *p + *p;
 	cout << i << endl;
 	*/
+
 
 
 	/*
@@ -330,8 +333,9 @@ int main()
 	3) p1 has no level and cant point on low-level p3. p2 has low-level and can point on low-level p3
 	*/
 
+	
+#pragma mark - Exercises Section 2.4.4
 	/*
-	Exercises Section 2.4.4
 	Exercise 2.32: Is the following code legal or not? If not, how might you
 	make it legal?
 	int null = 0, *p = null;
